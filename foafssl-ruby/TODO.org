@@ -1,0 +1,44 @@
+#+TITLE: foafssl-ruby TODO
+
+* foafssl-ruby
+
+** TODO Reading the public key in the FOAF file
+
+The current implementation only checks the first RSA key matching the
+WebID.  That means only the first key listed for that WebID is taken
+into account, and the authentication will fail is there are more than
+one key listed for a WebID and the client doesn't use the first one.
+
+I'm not sure what the specification tells about multiple keys per
+WebID.
+
+** TODO Add a Warden Strategy
+
+Now we have a Rack interface, it should be easy to add a Warden
+strategy.
+
+** TODO Add more specifications
+
+We're far from total coverage, and a couple of tests fail (but they
+might not be right.)
+
+** TODO Try alternative to rdf-raptor
+
+Nicholas Humfrey and Gregg Kellogg wrote an RDFa parser for RDF.rb.
+Try this one, eventually dropping support for rdf-raptor if it proves
+faster or reasonably comparable.
+
+** TODO Add support for more formats
+
+Right now the library supports RDFa and RDF+XML.  It should also
+provide support for other notations supported by RDF.rb
+
+** TODO Make a website
+
+http://foafssl-ruby.dyne.org ?
+
+** TODO Mailing-list?
+
+There's no mailing-list at the moment.  If you want to contact me, use
+my regular email address (hellekin@cepheide.org.)
+

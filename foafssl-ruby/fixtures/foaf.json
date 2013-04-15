@@ -1,0 +1,125 @@
+
+{
+  "https://hellekin.cepheide.org/foaf.rdf" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://xmlns.com/foaf/0.1/PersonalProfileDocument",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://xmlns.com/foaf/0.1/maker" : [ {
+        "value" : "https://hellekin.cepheide.org/foaf.rdf#me",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://xmlns.com/foaf/0.1/primaryTopic" : [ {
+        "value" : "https://hellekin.cepheide.org/foaf.rdf#me",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://xmlns.com/wot/0.1/assurance" : [ {
+        "value" : "https://hellekin.cepheide.org/foaf.rdf.asc",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
+  "https://hellekin.cepheide.org/foaf.rdf#cert" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://www.w3.org/ns/auth/rsa#RSAPublicKey",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/ns/auth/cert#identity" : [ {
+        "value" : "https://hellekin.cepheide.org/foaf.rdf#me",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/ns/auth/rsa#modulus" : [ {
+        "value" : "https://hellekin.cepheide.org/foaf.rdf#modulus",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://www.w3.org/ns/auth/rsa#public_exponent" : [ {
+        "value" : "https://hellekin.cepheide.org/foaf.rdf#public_exponent",
+        "type" : "uri"
+        }
+      
+      ]
+    }
+  ,
+  "https://hellekin.cepheide.org/foaf.rdf#me" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+        "value" : "http://xmlns.com/foaf/0.1/Person",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://xmlns.com/foaf/0.1/firstName" : [ {
+        "value" : "Hellekin",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://xmlns.com/foaf/0.1/givenName" : [ {
+        "value" : "Wolf",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://xmlns.com/foaf/0.1/homepage" : [ {
+        "value" : "https://hellekin.cepheide.org",
+        "type" : "uri"
+        }
+      
+      ],
+    "http://xmlns.com/foaf/0.1/jabberId" : [ {
+        "value" : "xmpp:hellekin@cepheide.org",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://xmlns.com/foaf/0.1/mbox_sha1sum" : [ {
+        "value" : "d2dbee0807a356c95a268742bae6ac038162abd6",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://xmlns.com/foaf/0.1/name" : [ {
+        "value" : "Hellekin O. Wolf",
+        "type" : "literal"
+        }
+      
+      ],
+    "http://xmlns.com/foaf/0.1/nick" : [ {
+        "value" : "hellekin",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://hellekin.cepheide.org/foaf.rdf#modulus" : {
+    "http://www.w3.org/ns/auth/cert#hex" : [ {
+        "value" : "F01DD2997A2E07FBC11EF69225B86D8DBAA1CEE44A0C630A236E287014FA37845ED7CF91C736F1048BAD307EF9C7CCDCB5A7B47AFF883E8AC131FA270E4E3AC11D682715A471F83E76F15C3006E99650644762B59C5BFECE5045B70402C4250A5D5FFF56164E077D9B14DADC3B0D5EFC25B8CF979F147BE55F47E4DA8DE56685",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  ,
+  "https://hellekin.cepheide.org/foaf.rdf#public_exponent" : {
+    "http://www.w3.org/ns/auth/cert#decimal" : [ {
+        "value" : "65537",
+        "type" : "literal"
+        }
+      
+      ]
+    }
+  }

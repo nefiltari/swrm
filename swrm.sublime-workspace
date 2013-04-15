@@ -1,0 +1,813 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"requi",
+				"require_relative"
+			],
+			[
+				"req",
+				"require_relative"
+			],
+			[
+				"persdat",
+				"persdat_serialize"
+			],
+			[
+				"return",
+				"return_value"
+			],
+			[
+				"sock",
+				"sock_client"
+			],
+			[
+				"buffer",
+				"buffer_length"
+			],
+			[
+				"msg",
+				"msg_size"
+			],
+			[
+				"bin",
+				"bin_b_str"
+			],
+			[
+				"draw",
+				"drawobject"
+			],
+			[
+				"axis",
+				"axis_width"
+			],
+			[
+				"Pr",
+				"Project"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.rb",
+			"settings":
+			{
+				"buffer_size": 2621,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config.rb",
+			"settings":
+			{
+				"buffer_size": 266,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "linker.rb",
+			"settings":
+			{
+				"buffer_size": 2575,
+				"line_ending": "Unix",
+				"name": "linker.rb"
+			}
+		},
+		{
+			"file": "access_control.rb",
+			"settings":
+			{
+				"buffer_size": 5624,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "rdf_setup.rb",
+			"settings":
+			{
+				"buffer_size": 844,
+				"line_ending": "Unix",
+				"name": "rdf_setup.rb"
+			}
+		},
+		{
+			"file": "storages.rb",
+			"settings":
+			{
+				"buffer_size": 2042,
+				"line_ending": "Unix",
+				"name": "ressource_management.rb"
+			}
+		},
+		{
+			"file": "ressources.rb",
+			"settings":
+			{
+				"buffer_size": 3788,
+				"line_ending": "Unix",
+				"name": "ressources.rb"
+			}
+		},
+		{
+			"file": "ressources/image.rb",
+			"settings":
+			{
+				"buffer_size": 244,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "storages/sqlite.rb",
+			"settings":
+			{
+				"buffer_size": 652,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 338,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ressources/profile.rb",
+			"settings":
+			{
+				"buffer_size": 657,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"command_palette":
+	{
+		"height": 56.0,
+		"selected_items":
+		[
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 56.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/ramastuh/Dropbox/Bachelor Arbeit/Latex/chapters/einleitung.tex",
+		"/home/ramastuh/Dropbox/Bachelor Arbeit/Code/ressources/profile.rb",
+		"/home/ramastuh/Dropbox/Bachelor Arbeit/Code/foafssl-ruby/lib/foafssl.rb",
+		"/home/ramastuh/Dropbox/Bachelor Arbeit/Code/foafssl-ruby/lib/foafssl/reader.rb",
+		"/home/ramastuh/Dropbox/Bachelor Arbeit/Code/foafssl-ruby/lib/foafssl/authentication.rb",
+		"/home/ramastuh/Dropbox/Bachelor Arbeit/Code/foafssl-ruby/lib/foafssl/rack.rb",
+		"/home/ramastuh/Dropbox/Bachelor Arbeit/Code/storages/config.rb",
+		"/etc/apache2/vim",
+		"/etc/apache2/httpd.conf",
+		"/usr/share/texmf-texlive/tex/latex/biblatex/biblatex.cfg",
+		"/home/ramastuh/Dropbox/Bachelor Arbeit/Code/access_control.rb",
+		"/home/ramastuh/Dropbox/Bachelor Arbeit/Code/sesame.rb",
+		"/home/ramastuh/Dropbox/Bachelor Arbeit/Code/sqlite.rb",
+		"/home/ramastuh/Projects/Minecraft Init Script/main.rb",
+		"/home/ramastuh/Projects/Minecraft Init Script/minecraft",
+		"/opt/java/64/update",
+		"/home/ramastuh/Projects/config",
+		"/home/ramastuh/Projects/minecraft",
+		"/home/ramastuh/Projects/rails gems",
+		"/home/ramastuh/Dropbox/Node.js/NewsFisher/js/init.coffee",
+		"/home/ramastuh/Dropbox/Node.js/NewsFisher/js/classes/App.coffee",
+		"/home/ramastuh/Dropbox/Node.js/NewsFisher/app_modules/news/feed_single.coffee",
+		"/home/ramastuh/Dropbox/Node.js/NewsFisher/app_modules/news/News.coffee",
+		"/home/ramastuh/Dropbox/Node.js/NewsFisher/index.html",
+		"/home/ramastuh/Dropbox/Node.js/NewsFisher/app_modules/news/channel_tree.coffee",
+		"/home/ramastuh/.ssh/known_hosts",
+		"/home/ramastuh/Dokumente/RPC ONC/server.c",
+		"/home/ramastuh/Dokumente/RPC ONC/dbank_svc_proc.c",
+		"/home/ramastuh/Dokumente/RPC ONC/dbank.c",
+		"/home/ramastuh/Dokumente/RPC ONC/dbank.h",
+		"/home/ramastuh/Dropbox/Private/leven.rb",
+		"/home/ramastuh/Dropbox/Private/IR - Keywords.txt",
+		"/home/ramastuh/index.html",
+		"/home/ramastuh/Dokumente/RPC ONC/client.c",
+		"/home/ramastuh/Dropbox/Studium/Information Retrieval/IR - Keywords - noch unvollständig.txt",
+		"/home/ramastuh/Dropbox/Projects/NewsFisher/src/views/modules/rss/widgets/item_details.rb",
+		"/home/ramastuh/Dropbox/Projects/NewsFisher/src/main.rb",
+		"/home/ramastuh/Dropbox/Projects/NewsFisher/src/init.rb",
+		"/home/ramastuh/Dropbox/Bachelor Arbeit/quellen.txt",
+		"/home/ramastuh/Projects/PrakCG/Exercise 5/start.sh",
+		"/boot/grub/grub.cfg",
+		"/home/ramastuh/Projects/PrakCG/Exercise 5/wavefront.h",
+		"/home/ramastuh/Projects/PrakCG/Exercise 5/help.h",
+		"/home/ramastuh/Dropbox/Bücher/Reverse Code Engineering/Information.txt",
+		"/home/ramastuh/Projects/hanabi/Rakefile",
+		"/home/ramastuh/Dropbox/Studium/Teamorientiertes Praktikum Web-Engineering/RubyTask - LaTeX-Vorlage und Praktikumsbericht/TUC - LaTeX-Template for scientific artifacts.tex",
+		"/home/ramastuh/Dropbox/Studium/Teamorientiertes Praktikum Web-Engineering/RubyTask - LaTeX-Vorlage und Praktikumsbericht/formalLayout/abkuerzungsverzeichnis.tex",
+		"/home/ramastuh/Dropbox/Studium/Teamorientiertes Praktikum Web-Engineering/RubyTask - LaTeX-Vorlage und Praktikumsbericht/meta/metadaten.tex",
+		"/home/ramastuh/Dropbox/Studium/Teamorientiertes Praktikum Web-Engineering/RubyTask - LaTeX-Vorlage und Praktikumsbericht/meta/layout.tex",
+		"/home/ramastuh/Dropbox/Studium/Teamorientiertes Praktikum Web-Engineering/RubyTask - LaTeX-Vorlage und Praktikumsbericht/chapters/schlussworte.tex",
+		"/home/ramastuh/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/ramastuh/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/ramastuh/Dropbox/Studium/Teamorientiertes Praktikum Web-Engineering/RubyTask - LaTeX-Vorlage und Praktikumsbericht/chapters/rubytask.tex",
+		"/home/ramastuh/Dropbox/Studium/Teamorientiertes Praktikum Web-Engineering/RubyTask - LaTeX-Vorlage und Praktikumsbericht/meta/layout.aux",
+		"/home/ramastuh/Projects/yakisoba/db/seeds.rb",
+		"/home/ramastuh/Projects/yakisoba/Gemfile",
+		"/home/ramastuh/Projects/rails_gadgets/Rakefile",
+		"/home/ramastuh/Projects/rails_gadgets/Gemfile",
+		"/home/ramastuh/Projects/RubyTask/Rakefile",
+		"/home/ramastuh/Projects/PrakCG/Exercise 4/Template_PrakCG.cpp",
+		"/home/ramastuh/Projects/PrakCG/Exercise 4/vbo.cpp",
+		"/home/ramastuh/Projects/PrakCG/Exercise 4/Template_PrakCG.sln",
+		"/home/ramastuh/Projects/PrakCG/Exercise 4/start.sh",
+		"/home/ramastuh/Projects/PrakCG/Exercise 4/wavefront.cpp",
+		"/home/ramastuh/Projects/PrakCG/Exercise 4/wavefront.h",
+		"/home/ramastuh/Projects/PrakCG/Exercise 3/Template_PrakCG.cpp",
+		"/home/ramastuh/Projects/PrakCG/Exercise 4/glext.h",
+		"/home/ramastuh/Projects/PrakCG/Exercise 4/help.cpp",
+		"/home/ramastuh/Projects/PrakCG/Exercise 4/help.h",
+		"/home/ramastuh/Projects/PrakCG/Exercise 4/vbo.h",
+		"/home/ramastuh/Dropbox/Studium/Teamorientiertes Praktikum Web-Engineering/RubyTask - LaTeX-Vorlage und Praktikumsbericht/chapters/brainstorming.tex",
+		"/home/ramastuh/Dropbox/Studium/Teamorientiertes Praktikum Web-Engineering/RubyTask - LaTeX-Vorlage und Praktikumsbericht/chapters/modelle.tex",
+		"/home/ramastuh/Dropbox/Studium/Teamorientiertes Praktikum Web-Engineering/RubyTask - LaTeX-Vorlage und Praktikumsbericht/chapters/voruebergehend.tex",
+		"/home/ramastuh/Dropbox/Projects/RubyTask/app/models/initialization.rb",
+		"/home/ramastuh/Dropbox/Studium/Teamorientiertes Praktikum Web-Engineering/RubyTask - LaTeX-Vorlage und Praktikumsbericht/bib/literatur.bib",
+		"/home/ramastuh/Dropbox/Studium/Teamorientiertes Praktikum Web-Engineering/RubyTask - LaTeX-Vorlage und Praktikumsbericht/chapters/technologie.tex",
+		"/home/ramastuh/Dropbox/Studium/Praktikum Softwareengineering/WikiMap/app/controllers/data_controller.rb",
+		"/home/ramastuh/Dropbox/Studium/Praktikum Softwareengineering/WikiMap/app/controllers/shoes_controller.rb",
+		"/home/ramastuh/Dropbox/Studium/Praktikum Softwareengineering/WikiMap/WikiMap.rb",
+		"/home/ramastuh/Dropbox/Studium/Praktikum Softwareengineering/WikiMap/app/views/title_bar.rb",
+		"/home/ramastuh/Dropbox/Studium/Teamorientiertes Praktikum Web-Engineering/RubyTask - LaTeX-Vorlage und Praktikumsbericht/img/relational_database_erm.jpg",
+		"/home/ramastuh/Dropbox/Bachelor Arbeit/information.txt",
+		"/home/ramastuh/Dropbox/Bücher/RCE/Information.txt",
+		"/home/ramastuh/Dropbox/Bachelor Arbeit/Technikanalyse/Henry Story think about WebID Access Delegation.txt",
+		"/home/ramastuh/Dropbox/Bachelor Arbeit/Technikanalyse/authorization delegation.txt",
+		"/home/ramastuh/Dropbox/Bachelor Arbeit/Technikanalyse/authorization delegation",
+		"/home/ramastuh/Dropbox/Bachelor Arbeit/Technikanalyse/authentification delegation.txt",
+		"/home/ramastuh/Dropbox/Studium/Theoretische Informatik I/Übungen/Lösungen WS 2012/Theoretische Informatik - Übung 7 (WS 2012).txt",
+		"/home/ramastuh/Dropbox/Drafts/Theoretische Informatik - Übung 7 (WS 2012).txt",
+		"/home/ramastuh/Dropbox/Studium/Teamorientiertes Praktikum Web-Engineering/RubyTask - LaTeX-Vorlage und Praktikumsbericht/chapters/technologie - Kopie.tex",
+		"/home/ramastuh/Dropbox/Studium/Teamorientiertes Praktikum Web-Engineering/RubyTask - LaTeX-Vorlage und Praktikumsbericht/chapters/features - Kopie.tex",
+		"/home/ramastuh/Dropbox/Studium/Teamorientiertes Praktikum Web-Engineering/RubyTask - LaTeX-Vorlage und Praktikumsbericht/chapters/aufgabenstellung.tex",
+		"/home/ramastuh/Dropbox/Studium/Teamorientiertes Praktikum Web-Engineering/RubyTask - LaTeX-Vorlage und Praktikumsbericht/chapters/schlussworte - Kopie.tex",
+		"/home/ramastuh/Dropbox/Studium/Teamorientiertes Praktikum Web-Engineering/RubyTask - LaTeX-Vorlage und Praktikumsbericht/chapters/technologie.fdb_latexmk",
+		"/home/ramastuh/Dropbox/Studium/Teamorientiertes Praktikum Web-Engineering/RubyTask - LaTeX-Vorlage und Praktikumsbericht/chapters/technologie.aux",
+		"/home/ramastuh/Downloads/Latex/chapters/technologie.tex",
+		"/home/ramastuh/Downloads/Latex/formalLayout/literaturverzeichnis.tex",
+		"/home/ramastuh/Downloads/Latex/bib/literatur.bib",
+		"/home/ramastuh/Downloads/Latex/meta/layout.tex",
+		"/home/ramastuh/Downloads/Latex/meta/metadaten.tex",
+		"/home/ramastuh/Downloads/Latex/formalLayout/titel.tex",
+		"/home/ramastuh/.cache/.fr-XJPq0j/Latex/meta/layout.tex",
+		"/home/ramastuh/Downloads/Latex/README.txt",
+		"/home/ramastuh/Downloads/Latex/chapters/aufgabenstellung.tex",
+		"/home/ramastuh/Downloads/l2kurz.tex",
+		"/home/ramastuh/Downloads/l2k1.tex",
+		"/home/ramastuh/Downloads/l2k2.tex",
+		"/home/ramastuh/Downloads/l2k3.tex",
+		"/home/ramastuh/Downloads/Latex/chapters/grundkonzepte.tex",
+		"/home/ramastuh/Downloads/Latex/formalLayout/selbststndigkeitserklrung.tex",
+		"/home/ramastuh/Downloads/Latex/chapters/einleitung.tex",
+		"/home/ramastuh/Downloads/Latex/formalLayout/abbildungsverzeichnis.tex",
+		"/home/ramastuh/Downloads/Latex/formalLayout/abkuerzungsverzeichnis.tex",
+		"/home/ramastuh/Downloads/Latex/formalLayout/abstract.tex",
+		"/home/ramastuh/Downloads/Latex/formalLayout/algorithmenverzeichnis.tex",
+		"/home/ramastuh/Downloads/Latex/formalLayout/anhang.tex",
+		"/home/ramastuh/Downloads/Latex/formalLayout/chapterInitilisation.tex",
+		"/home/ramastuh/Downloads/Latex/formalLayout/danksagung.tex",
+		"/home/ramastuh/Downloads/Latex/formalLayout/glossar.tex",
+		"/home/ramastuh/Downloads/Latex/formalLayout/inhaltsverzeichnis.tex",
+		"/home/ramastuh/Downloads/Latex/formalLayout/tabellenverzeichnis.tex",
+		"/home/ramastuh/Downloads/Latex/TUC - LaTeX-Template for scientific artifacts.tex",
+		"/home/ramastuh/Projects/RubyTask/app/models/initialization.rb",
+		"/home/ramastuh/Projects/RubyTask/app/models/organisation.rb",
+		"/home/ramastuh/Projects/RubyTask/app/models/member.rb",
+		"/home/ramastuh/Projects/RubyTask/app/models/member_in_role.rb",
+		"/home/ramastuh/Projects/RubyTask/app/models/right.rb",
+		"/home/ramastuh/Projects/RubyTask/app/models/taskstep.rb"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"*.h",
+			"*.tex",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"1003",
+			"error",
+			"end",
+			"json",
+			"rid",
+			"create_links",
+			"as_user",
+			"permu",
+			"if (msg_size < 0)",
+			"weiter = 0;",
+			"GL_LIGHT3",
+			"InitLights",
+			"Objects",
+			"	",
+			"gfxmode",
+			"set_obj_model",
+			"Load_Objects",
+			"g_obj",
+			"HAML",
+			"Process",
+			"reshapeFunc",
+			"draw_trailer",
+			"main",
+			"glGenBuffers",
+			"GL_GLEXT_PROTOTYPES",
+			"\\footnote{http",
+			"http",
+			"RVM",
+			"wollen wir das",
+			"RDF",
+			"dcauthor",
+			"#",
+			"footnotes",
+			"includegra",
+			"includegr",
+			")) ",
+			"members",
+			"\n\\",
+			"wgl",
+			"strlen",
+			"MesaGL",
+			"-mtune=i486",
+			"-m486",
+			"end",
+			"=||",
+			"Propertie"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"SWRM.error",
+			"data",
+			"create_main_link",
+			"if (msg_size <= 0)",
+			"terminate(0);",
+			"  ",
+			"",
+			"-mtune=i486",
+			"i486",
+			"||=",
+			"Property"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 10,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.rb",
+					"settings":
+					{
+						"buffer_size": 2621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								368,
+								368
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config.rb",
+					"settings":
+					{
+						"buffer_size": 266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								193,
+								193
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "linker.rb",
+					"settings":
+					{
+						"buffer_size": 2575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "linker.rb",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 224.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "access_control.rb",
+					"settings":
+					{
+						"buffer_size": 5624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4591,
+								4591
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1765.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "rdf_setup.rb",
+					"settings":
+					{
+						"buffer_size": 844,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								478,
+								478
+							]
+						],
+						"settings":
+						{
+							"auto_name": "rdf_setup.rb",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "storages.rb",
+					"settings":
+					{
+						"buffer_size": 2042,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								149,
+								149
+							]
+						],
+						"settings":
+						{
+							"auto_name": "ressource_management.rb",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "ressources.rb",
+					"settings":
+					{
+						"buffer_size": 3788,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3315,
+								3315
+							]
+						],
+						"settings":
+						{
+							"auto_name": "ressources.rb",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "ressources/image.rb",
+					"settings":
+					{
+						"buffer_size": 244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								234,
+								234
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "storages/sqlite.rb",
+					"settings":
+					{
+						"buffer_size": 652,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								236,
+								236
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 338,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								314,
+								314
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "ressources/profile.rb",
+					"settings":
+					{
+						"buffer_size": 657,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								371,
+								371
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 196.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"task",
+				"RubyTask/app/models/task.rb"
+			],
+			[
+				"pro",
+				"RubyTask/app/models/project.rb"
+			],
+			[
+				"or",
+				"RubyTask/app/models/organisation.rb"
+			],
+			[
+				"naja",
+				"bookmarkmanager/app/assets/javascripts/application.js"
+			],
+			[
+				"apphaml",
+				"RubyTask/app/views/layouts/application.html.haml"
+			],
+			[
+				"orgjs",
+				"RubyTask/app/assets/javascripts/organisations.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/ramastuh/Projects/PrakCG/Ruta.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 162.0,
+	"status_bar_visible": true
+}

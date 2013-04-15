@@ -1,0 +1,30 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://hellekin.cepheide.org/foaf.rdf>
+    a <http://xmlns.com/foaf/0.1/PersonalProfileDocument> ;
+    <http://xmlns.com/foaf/0.1/maker> <https://hellekin.cepheide.org/foaf.rdf#me> ;
+    <http://xmlns.com/foaf/0.1/primaryTopic> <https://hellekin.cepheide.org/foaf.rdf#me> ;
+    <http://xmlns.com/wot/0.1/assurance> <https://hellekin.cepheide.org/foaf.rdf.asc> .
+
+<https://hellekin.cepheide.org/foaf.rdf#cert>
+    a <http://www.w3.org/ns/auth/rsa#RSAPublicKey> ;
+    <http://www.w3.org/ns/auth/cert#identity> <https://hellekin.cepheide.org/foaf.rdf#me> ;
+    <http://www.w3.org/ns/auth/rsa#modulus> <https://hellekin.cepheide.org/foaf.rdf#modulus> ;
+    <http://www.w3.org/ns/auth/rsa#public_exponent> <https://hellekin.cepheide.org/foaf.rdf#public_exponent> .
+
+<https://hellekin.cepheide.org/foaf.rdf#me>
+    a <http://xmlns.com/foaf/0.1/Person> ;
+    <http://xmlns.com/foaf/0.1/firstName> "Hellekin" ;
+    <http://xmlns.com/foaf/0.1/givenName> "Wolf" ;
+    <http://xmlns.com/foaf/0.1/homepage> <https://hellekin.cepheide.org> ;
+    <http://xmlns.com/foaf/0.1/jabberId> "xmpp:hellekin@cepheide.org" ;
+    <http://xmlns.com/foaf/0.1/mbox_sha1sum> "d2dbee0807a356c95a268742bae6ac038162abd6" ;
+    <http://xmlns.com/foaf/0.1/name> "Hellekin O. Wolf" ;
+    <http://xmlns.com/foaf/0.1/nick> "hellekin" .
+
+<https://hellekin.cepheide.org/foaf.rdf#modulus>
+    <http://www.w3.org/ns/auth/cert#hex> "F01DD2997A2E07FBC11EF69225B86D8DBAA1CEE44A0C630A236E287014FA37845ED7CF91C736F1048BAD307EF9C7CCDCB5A7B47AFF883E8AC131FA270E4E3AC11D682715A471F83E76F15C3006E99650644762B59C5BFECE5045B70402C4250A5D5FFF56164E077D9B14DADC3B0D5EFC25B8CF979F147BE55F47E4DA8DE56685" .
+
+<https://hellekin.cepheide.org/foaf.rdf#public_exponent>
+    <http://www.w3.org/ns/auth/cert#decimal> "65537" .
+
