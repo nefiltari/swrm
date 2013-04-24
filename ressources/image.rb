@@ -8,7 +8,7 @@ module SWRM
   class Ressource::Image < Ressource
     def read
     end
-    
+
     def write
     end
 

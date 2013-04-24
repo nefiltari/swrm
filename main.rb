@@ -18,10 +18,16 @@ require_relative 'storages'
 # Define Interface
 module SWRM
   TS=Storage::Triplestore::File.new :filets # Vorläufig Ram Storage (später Sesame)
+  DB = {}
+  DB[:key_value] = Storage::KeyValue.new :key_value
 
   def self.init
-    # TS.sparql = 
+    # TS.sparql =
     # Setup the Triplestore
+
+    # init keyvalue store
+
+
     setup
   end
 
@@ -73,7 +79,6 @@ module SWRM
     action = AccessControl.check action
     return action if action.member?(:error)
 
-    # Cut
     action = Ressource.execute_action action
   end
 end

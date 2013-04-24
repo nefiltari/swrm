@@ -1,0 +1,21 @@
+/* page view general */
+html {}
+body {font-size: 12px;}
+.main {width: 960px; margin: 20px auto; background: #ddd;}
+
+/* page core container */
+.main > header {text-align: center;}
+.main > .content {padding: 20px; text-align: left;}
+.main > footer {text-align: center;}
+
+/* page header styles */
+.main header h1 {margin: 0; padding: 0;}
+.main header ul {margin: 0; padding: 0;}
+.main header ul li {display: inline-block; padding: 5px; width: 23.75%; cursor: pointer;}
+.main header ul li a {text-decoration: none;}
+
+/* page content styles */
+.main .content .blog {width: 80%; margin: 10px auto; }
+.main .content .blog header {padding: 3px 10px 3px 20px;}
+.main .content .blog .content {padding: 5px; text-align: justify;}
+.main .content .blog footer {padding: 3px; text-align: center;}

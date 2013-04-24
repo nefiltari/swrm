@@ -1,0 +1,3 @@
+.content.ui-corner-all
+  - @recent_posts.each do |blog|
+    == partial :"_blog", locals: {blog: blog}
