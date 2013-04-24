@@ -45,6 +45,9 @@ module SWRM
     when 1006
       action[:error] = "Invalid Request!"
       action[:errorcode] = 1006
+    when 1007
+      action[:error] = "Ressource does not exist!"
+      action[:errorcode] = 1007
     else
       action[:error] = "Internal Error!"
       action[:errorcode] = 1000
@@ -81,14 +84,15 @@ helpers do
     # params[:webid] for extern webids
     # Ersetzt durch WebID Authentikator und Sinatra
     action = { 
-      requester: RDF::URI.new("http://example.org/user/a\#me"), #WebID 
-      link: request.url, 
+      requester: RDF::URI.new("http://example.org/user/a\#me"), # "anonym" , #WebID 
+      host: request.host,
+      path: request.path, 
       method: request.request_method.downcase,
       parameters: params
     }
 
     action = SWRM.access action
-    headers "Content-Type" => action[:rformat_http]
+    #headers "Content-Type" => action[:rformat_http]
 
     SWRM::Ressource.serialize_action action
   end

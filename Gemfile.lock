@@ -1,14 +1,11 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (3.2.13)
-      i18n (= 0.6.1)
-      multi_json (~> 1.0)
     addressable (2.3.3)
+    awesome_print (1.1.0)
     ffi (1.7.0)
-    i18n (0.6.1)
     json_pure (1.7.7)
-    multi_json (1.7.2)
+    kioku (0.1.2)
     net-http-persistent (2.8)
     rack (1.5.2)
     rack-protection (1.5.0)
@@ -39,7 +36,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesupport
+  awesome_print
+  kioku
   rdf
   rdf-json
   rdf-raptor
