@@ -72,6 +72,7 @@ module SWRM
     return action if action.member?(:error)
     pp action
 
+    # Access Control Decision
     action = AccessControl.check action
     return action if action.member?(:error)
 
