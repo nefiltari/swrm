@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title Social App
+    link rel="stylesheet" type="text/css" href="/css/redmond/jquery-ui-1.10.2.custom.css"
+    link rel="stylesheet" type="text/css" href="/css/core.css"
+    script src="/js/jquery-1.9.1.js"
+    script src="/js/jquery-ui-1.10.2.custom.min.js"
+
+  body
+    .main.ui-corner-all
+
+      header.ui-widget
+        h1.ui-widget-header.ui-corner-top Social App
+        ul
+          li.ui-widget-content: a href="/" home
+          li.ui-widget-content: a href="/my_profile" my profile
+          li.ui-widget-content: a href="/my_friends" my friends
+          li.ui-widget-content: a href="/my_blog" my blog
+
+      == yield
+
+      footer.ui-widget
+        p.ui-widget-header.ui-corner-bottom © Francesco Möller 2013

@@ -18,10 +18,16 @@ require_relative 'storages'
 # Define Interface
 module SWRM
   TS=Storage::Triplestore::File.new :filets # Vorläufig Ram Storage (später Sesame)
+  DB = {}
+  DB[:key_value] = Storage::KeyValue.new :key_value
 
   def self.init
-    # TS.sparql = 
+    # TS.sparql =
     # Setup the Triplestore
+
+    # init keyvalue store
+
+
     setup
   end
 
@@ -68,7 +74,7 @@ module SWRM
 
     action = AccessControl.check action
     return action if action.member?(:error)
-      
+
     action = Ressource.execute_action action
   end
 end
@@ -78,9 +84,9 @@ helpers do
   def requestet_action
     # params[:webid] for extern webids
     # Ersetzt durch WebID Authentikator und Sinatra
-    action = { 
-      requester: RDF::URI.new("http://example.org/user/a\#me"), #WebID 
-      link: request.url, 
+    action = {
+      requester: RDF::URI.new("http://example.org/user/a\#me"), #WebID
+      link: request.url,
       method: request.request_method.downcase,
       parameters: params
     }

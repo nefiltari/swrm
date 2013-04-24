@@ -11,6 +11,10 @@ module SWRM
     },
     filets: {
       repo: "#{Dir.home}/.storage/tsrepo.nt"
+    },
+    key_value: {
+      path: "#{Dir.home}/.storage/data.yml",
+      name: "kioku"
     }
   }
 end

@@ -1,0 +1,16 @@
+source 'https://rubygems.org/'
+ruby '2.0.0'
+
+# core gems
+gem 'sinatra'
+gem 'sinatra-partial', :require => 'sinatra/partial'
+gem 'thin'
+gem 'slim'
+
+# debugging & utility
+gem 'awesome_print'
+
+# data storage
+gem "sinatra-activerecord", :require => 'sinatra/activerecord'
+gem "sqlite3"
+gem "rake"

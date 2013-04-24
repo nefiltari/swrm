@@ -27,6 +27,14 @@ module SWRM
     end
   end
 
+  class Storage::KeyValue < Storage
+    attr_reader :repo
+
+    def connect
+      @repo = Kioku.new(@config[:path])
+    end
+  end
+
   # Default Repository (Path Repositories) | URL or System path
   class Storage::Repository < Storage
     attr_reader :repo
